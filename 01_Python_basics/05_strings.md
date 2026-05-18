@@ -103,7 +103,7 @@ out:
 ```
 ['Hello', ' World!']
 ```
-## Python, you can actually 
+## multiply strings
 It means repeating the string a certain number of times.
 ```python
 word = "Hi "
