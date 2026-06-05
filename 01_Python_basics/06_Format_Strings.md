@@ -1,5 +1,7 @@
+## String Formating  
+|Method  | 
 ## F-Strings  
-To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
+To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets `{}` as placeholders for variables and other operations.
 ```python
 price = 59
 txt = f"The price is {price} dollars"
