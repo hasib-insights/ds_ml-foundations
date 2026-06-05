@@ -4,7 +4,7 @@ where
 name = Hasib
 ```
 | Method        |  Syntax                                  | Example (print `My name is Hasib`)                              | Output                                  |
-|---------------|------------------------------------------| ----------------------------------------------------------------|-----------------------------------------|
+|---------------|------------------------------------------| ----------------------------------------------------------------|:---------------------------------------:|
 | concatenation | `"text" + variable`                      | `print("My name is " + name)`                                   | `My name is Hasib`                      | 
 | str.format()  | `"text {}".format(variable)`             | `print("My name is {}".format(name))`                           | `My name is Hasib`                      | 
 | f-string      | `f"text {variable}"`                     | `print(f"My name is {name}")`                                   | `My name is Hasib`                      |
