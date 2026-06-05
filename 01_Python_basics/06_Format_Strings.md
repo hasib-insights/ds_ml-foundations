@@ -1,5 +1,16 @@
-## String Formating  
-|Method  | 
+## String Formatting Methods Table  
+where 
+```python
+name = Hasib
+```
+| Method        |  Syntax                                  | Example (print `My name is Hasib`)                              | Output                                  |
+|---------------|------------------------------------------| ----------------------------------------------------------------|-----------------------------------------|
+| concatenation | `"text" + variable`                      | `print("My name is " + name)`                                   | `My name is Hasib`                      | 
+| str.format()  | `"text {}".format(variable)`             | `print("My name is {}".format(name))`                           | `My name is Hasib`                      | 
+| f-string      | `f"text {variable}"`                     | `print(f"My name is {name}")`                                   | `My name is Hasib`                      |
+| % formatting  | `"text %s" % variable`                   | `print("My name is %s" % name)`                                 | `My name is Hasib`                      |
+| join()        | `"{Separator}".join(["text", variable])` | `",".join("My name is" , name` `"-".join(("My name is" - name)` | `My name is Hasib` `My name is - Hasib` |
+
 ## F-Strings  
 To specify a string as an f-string, simply put an `f` in front of the string literal, and add curly brackets `{}` as placeholders for variables and other operations.
 ```python
