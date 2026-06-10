@@ -11,6 +11,16 @@ name = Hasib
 | % formatting  | `"text %s" % variable`                   | `print("My name is %s" % name)`                                 | `My name is Hasib`                      |
 | join()        | `"{Separator}".join(["text", variable])` | `",".join("My name is" , name` <br> `"-".join(("My name is" - name)` | `My name is Hasib` <br> `My name is - Hasib` |
 
+## Concatenation  
+Use a comma `,` between a string and a variable inside the `print()` function.
+```python
+name = "Hasib"
+print("My name is", name)
+```
+output:
+```
+My name is Hasib
+```
 ## F-Strings  
 To specify a string as an f-string, simply put an `f` in front of the string literal, and add curly brackets `{}` as placeholders for variables and other operations.
 ```python
