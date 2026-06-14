@@ -19,7 +19,7 @@ print("My name is " + name) H#output: My name isasib
 ```
 ## str.format()
  S.format(*args, **kwargs) -> str  
- |  
+ 
  |      Return a formatted version of S, using substitutions from args and kwargs.  
  |      The substitutions are identified by braces ('{' and '}').
  ```python
