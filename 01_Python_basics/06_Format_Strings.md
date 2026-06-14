@@ -18,6 +18,20 @@ name = "Hasib"
 print("My name is " + name) H#output: My name isasib
 ```
 ## str.format()
+ S.format(*args, **kwargs) -> str
+ |
+ |      Return a formatted version of S, using substitutions from args and kwargs.
+ |      The substitutions are identified by braces ('{' and '}').
+ ```python
+price = 59
+"The price is {} dollars".format(price) #output: 'The price is 59 dollars'
+```
+```python
+name = "Hasib"
+age = 22
+"My name is {}, I am {}".format(name, age) #output:'My name is Hasib, I am 22'
+```
+
 ## F-Strings  
 To specify a string as an f-string, simply put an `f` in front of the string literal, and add curly brackets `{}` as placeholders for variables and other operations.
 ```python
